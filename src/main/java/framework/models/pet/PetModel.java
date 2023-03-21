@@ -4,9 +4,11 @@ import java.util.List;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
+import lombok.NoArgsConstructor;
 
 @Data
 @AllArgsConstructor
+@NoArgsConstructor
 @Builder
 public class PetModel {
 
@@ -20,6 +22,7 @@ public class PetModel {
 
   @Data
   @AllArgsConstructor
+  @NoArgsConstructor
   public static class Category {
 
     private Integer id;
@@ -28,6 +31,7 @@ public class PetModel {
 
   @Data
   @AllArgsConstructor
+  @NoArgsConstructor
   public static class Tag {
 
     private Integer id;

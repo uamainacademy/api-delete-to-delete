@@ -21,8 +21,8 @@ public class FirstTestClass extends BaseTest {
 
     SoftAssertions softly = new SoftAssertions();
     softly.assertThat(petResponse.getName())
-        .as("Dog name should be [test]")
-        .isEqualTo("test");
+        .as("Dog name should be [Ricoboy]")
+        .isEqualTo("Ricoboy");
     softly.assertAll();
   }
 
