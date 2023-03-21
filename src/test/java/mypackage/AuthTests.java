@@ -1,6 +1,7 @@
+package mypackage;
+
 import auuth.service.AirlinesService;
 import auuth.service.AuthService;
-import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
 public class AuthTests {
